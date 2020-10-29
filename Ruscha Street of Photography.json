@@ -1,0 +1,333 @@
+{
+    "graph": [
+        {
+            "author": " Lily Pregill",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "53ada570-8e78-11ea-9d86-068d38c13b76",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "53ada570-8e78-11ea-9d86-068d38c13b76",
+                            "constraintid": "8fc751e9-8e74-433f-bfc2-5136f4e79b8f",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "53ada570-8e78-11ea-9d86-068d38c13b76",
+                            "constraintid": "49a961e4-301e-4d94-9ef3-99b92727111f",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "e9370814-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": false,
+                    "name": "Street Name",
+                    "nodegroup_id": "53ad433c-8e78-11ea-9d86-068d38c13b76",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "72b2e546-ba69-11ea-bfdd-0a6344088a1e",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "72b2e546-ba69-11ea-bfdd-0a6344088a1e",
+                            "constraintid": "86bc984d-6663-4a39-a3a8-5f6246262c1a",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "72b2e546-ba69-11ea-bfdd-0a6344088a1e",
+                            "constraintid": "40750139-fa01-45d8-91f8-0d65ba419b79",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "e9370814-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": false,
+                    "name": "County",
+                    "nodegroup_id": "72b2e544-ba69-11ea-bfdd-0a6344088a1e",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "72b2e546-ba69-11ea-bfdd-0a6344088a1e",
+                    "config": {
+                        "defaultValue": "153e76c0-f640-4a78-a19a-88f4340ccb57",
+                        "label": "County",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "c5a985c9-ba69-11ea-bfdd-0a6344088a1e",
+                    "label": "County",
+                    "node_id": "72b2e544-ba69-11ea-bfdd-0a6344088a1e",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "53ada570-8e78-11ea-9d86-068d38c13b76",
+                    "config": {
+                        "defaultValue": "2abe5d2b-2258-49c6-8a5b-0c1352832cc9",
+                        "label": "Classification",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "f209189e-8e78-11ea-9d86-068d38c13b76",
+                    "label": "Classification",
+                    "node_id": "89d0da28-8e78-11ea-9440-020e960ad576",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "53ada570-8e78-11ea-9d86-068d38c13b76",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Street Name",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "f207f6da-8e78-11ea-9d86-068d38c13b76",
+                    "label": "Street Name",
+                    "node_id": "71f3a03e-8e78-11ea-a58f-068d38c13b76",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": "",
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "e93703aa-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "edgeid": "72b2e547-ba69-11ea-bfdd-0a6344088a1e",
+                    "graph_id": "e9370814-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
+                    "rangenode_id": "72b2e544-ba69-11ea-bfdd-0a6344088a1e"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "e93703aa-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "edgeid": "53ae1230-8e78-11ea-9d86-068d38c13b76",
+                    "graph_id": "e9370814-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "53ad433c-8e78-11ea-9d86-068d38c13b76"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "53ad433c-8e78-11ea-9d86-068d38c13b76",
+                    "edgeid": "71f3b678-8e78-11ea-a58f-068d38c13b76",
+                    "graph_id": "e9370814-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+                    "rangenode_id": "71f3a03e-8e78-11ea-a58f-068d38c13b76"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "53ad433c-8e78-11ea-9d86-068d38c13b76",
+                    "edgeid": "89d0df0a-8e78-11ea-9440-020e960ad576",
+                    "graph_id": "e9370814-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "89d0da28-8e78-11ea-9440-020e960ad576"
+                }
+            ],
+            "functions_x_graphs": [
+                {
+                    "config": {
+                        "description": {
+                            "nodegroup_id": "",
+                            "string_template": ""
+                        },
+                        "map_popup": {
+                            "nodegroup_id": "",
+                            "string_template": ""
+                        },
+                        "name": {
+                            "nodegroup_id": "53ad433c-8e78-11ea-9d86-068d38c13b76",
+                            "string_template": "<Street Name>"
+                        },
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "60000000-0000-0000-0000-000000000001",
+                    "graph_id": "e9370814-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "id": "699fe787-c863-11ea-bfe1-0a6344088a1e"
+                }
+            ],
+            "graphid": "e9370814-7ec1-11ea-bdf0-0aa7aa4b09bc",
+            "iconclass": "fa fa-map-marker",
+            "is_editable": false,
+            "isactive": true,
+            "isresource": true,
+            "jsonldcontext": "https://linked.art/ns/v1/linked-art.json",
+            "name": "Ruscha Street of Photography",
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "72b2e544-ba69-11ea-bfdd-0a6344088a1e",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "53ad433c-8e78-11ea-9d86-068d38c13b76",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "e9370814-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Street Name",
+                    "nodegroup_id": "53ad433c-8e78-11ea-9d86-068d38c13b76",
+                    "nodeid": "71f3a03e-8e78-11ea-a58f-068d38c13b76",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "2fa5e455-7abf-4d45-bcdb-577354c88a4c"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "e9370814-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Classification",
+                    "nodegroup_id": "53ad433c-8e78-11ea-9d86-068d38c13b76",
+                    "nodeid": "89d0da28-8e78-11ea-9440-020e960ad576",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "e9370814-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Street Name",
+                    "nodegroup_id": "53ad433c-8e78-11ea-9d86-068d38c13b76",
+                    "nodeid": "53ad433c-8e78-11ea-9d86-068d38c13b76",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "e9370814-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Ruscha Street of Photography",
+                    "nodegroup_id": null,
+                    "nodeid": "e93703aa-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "dbcd29f2-8c7a-4b16-91c3-5bf055f6c9c8"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "e9370814-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "County",
+                    "nodegroup_id": "72b2e544-ba69-11ea-bfdd-0a6344088a1e",
+                    "nodeid": "72b2e544-ba69-11ea-bfdd-0a6344088a1e",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
+                    "sortorder": 0
+                }
+            ],
+            "ontology_id": "0b1f5462-faa7-11e9-8f09-3af9d3b32b71",
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "config": null,
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "e9370814-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                "is_collector": false,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Ruscha Street of Photography",
+                "nodegroup_id": null,
+                "nodeid": "e93703aa-7ec1-11ea-bdf0-0aa7aa4b09bc",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                "sortorder": 0
+            },
+            "slug": null,
+            "subtitle": "",
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-39), 64-bit",
+        "git hash": "724231ffd 2020-05-26 11:32:18 -0700",
+        "os": "Linux",
+        "os version": "5.3.0-1030-aws"
+    }
+}
